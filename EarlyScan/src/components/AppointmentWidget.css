@@ -1,0 +1,73 @@
+.appointment-widget {
+  padding: 0px;
+  width: 100%; /* Adjust width to better fit the parent container */
+  margin: 10px auto; /* Center the widget horizontally with some vertical space */
+  border-radius: 10px; /* Rounded corners for the entire widget */
+  overflow: hidden; /* Change overflow to hidden to ensure shadows and borders are contained */
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Shadow for depth outside the widget */
+}
+
+.appointment-widget table {
+  width: 100%; /* Full width of its container */
+  border-collapse: separate; /* Keeps cells separate to allow for individual rounding */
+  border-spacing: 0 1.5px; /* No space between cells to ensure a seamless appearance */
+  background-color: white; /* White background for the entire table */
+}
+
+.appointment-widget th, .appointment-widget td {
+  padding: 10px; /* Uniform padding */
+  text-align: left;
+  border-bottom: 1px solid transparent; /* Make border transparent to maintain row continuity */
+}
+
+.appointment-widget th {
+  background-color: #407BFF; /* Blue background for headers */
+  color: white; /* White text for readability */
+  text-align: center;
+  font-family: 'Palatino', sans-serif;
+}
+
+.appointment-widget td {
+  font-size: 15px;
+  font-family: 'Palatino', sans-serif;
+  vertical-align: middle;
+}
+
+.row-confirmed td {
+  background-color: #fbd5cf; /* Light green color */
+  color: black; /* Text color for visibility */
+}
+
+.row-pending td {
+  background-color: #f47560; /* Light orange color */
+  color: black; /* Text color for visibility */
+}
+
+.appointment-widget tbody tr:first-child td:first-child {
+  border-top-left-radius: 8px;
+}
+
+.appointment-widget tbody tr:first-child td:last-child {
+  border-top-right-radius: 8px;
+}
+
+.appointment-widget tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.appointment-widget tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.appointment-widget tbody tr {
+  background-color: white; /* Ensures background is uniform */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Custom shadow for each row */
+  margin: 5px 0; /* Margin to prevent shadow clipping */
+  border-radius: 8px; /* Rounded corners for each row */
+
+}
+
+.appointment-widget tbody tr:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Enhanced shadow on hover for interactivity */
+}
