@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.header {
+    width: 100%;
+    padding: 40px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header .company-name {
+    font-family: 'Palatino', sans-serif; /* Specific font family for text section */
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.header nav a {
+    font-family: 'Palatino', sans-serif; /* Specific font family for text section */
+    font-weight: 600;
+    color: #6796ff;
+    margin: 0 40px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+    color: #407BFF;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;     
+    justify-content: space-between;; 
+    padding: 16px;
+    gap: 20px;               
+    width: 100%;   
+}
+
+.text-section {
+    text-align: left;     
+    padding: 20px 70px;  /* Reduced padding to bring content closer */
+    max-width: 800px; /* Sets a max width for text */
+    width: 100%; 
+}
+.text-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #407BFF;
+    margin-bottom: 0px;  /* Adds space below the heading */
+    font-family: 'Inter', sans-serif; /* Specific font family for text section */
+}
+
+.text-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #407BFF;
+    margin-bottom: 50px;  /* Adds space below the heading */
+    font-family: 'Palatino', sans-serif; /* Specific font family for text section */
+}
+
+.text-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 80px;  /* Adds space below the heading */
+    font-family: 'Palatino', sans-serif; /* Specific font family for text section */
+    max-width: 450px; /* Sets a max width for text */
+
+}
+
+.button {
+    font-family: 'Palatino', sans-serif; /* Specific font family for text section */
+    padding: 8px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 110px;
+    margin-left: -90px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;  /* Adds space below the button group if more content follows */
+}
+
+.button-login {
+    background-color: #407BFF;
+    color: white;    
+    border: 4px solid #407BFF;
+
+}
+
+.button-login:hover {
+    background-color: transparent;
+    color: #407BFF;
+    border: 4px solid #407BFF;
+}
+
+.button-signup {
+    background-color: transparent;
+    color: #407BFF;
+    border: 2px solid #407BFF;
+}
+
+.button-signup:hover {
+    background-color: #407BFF;
+    color: white;
+
+}
+
+/* If you need to specifically target the button container to adjust its layout */
+.buttons-container {
+    display: flex;  /* Ensures buttons are inline */
+    justify-content: center;  /* Centers buttons horizontally */
+    gap: 30px;  /* Adds horizontal space between buttons */
+    margin-left: -150px; /* Adds margin to the left, pushing the container right */
+
+}
+
+/* Updated styles for the image */
+.image-container img {
+    max-width: 105%; 
+    max-height: 600px;
+    margin-top: 0px;  
+    margin-left: -100px;
+  }
+  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px; /* Height of the footer */
+    background-color: #407BFF; /* Color similar to bg-blue-300 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    overflow: hidden; /* Keeps pseudo-elements within the footer */
+
+}
+.footer-arrow {
+    width: 24px;
+    height: 24px; /* Size of the arrows */
+    margin: 0 20px; /* Space around the arrows */
+}
+
+.footer-dots {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    width: 5px; /* Dot size */
+    height: 5px; /* Dot size */
+    background-color: rgb(255, 255, 255); /* Dot color */
+    border-radius: 50%; /* Make it round */
+    margin: 0 5px; /* Spacing between dots */
+}

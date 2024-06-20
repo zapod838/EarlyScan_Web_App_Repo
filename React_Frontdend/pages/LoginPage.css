@@ -1,0 +1,11 @@
+/* LoginPage.css */
+.login-page {
+    font-family: 'Palatino Linotype', 'Palatino', serif;
+}
+
+.svg-wrapper {
+    width: 100%; /* or any specific size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
