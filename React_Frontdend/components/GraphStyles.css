@@ -1,0 +1,28 @@
+.graph-container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffe5e5; /* Example background color */
+}
+
+  .graph-title {
+    margin-bottom: 0px; /* Adjust the space between the title and the graph */
+    font-size: 22px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  
+  /* Ensure the specificity and importance of this selector */
+.custom-legend .legendItem text {
+  font-weight: bold !important;
+}
+.bg-red-100 {
+  background-color: #ffe5e5; /* Light red color */
+}
+
+.bg-blue-100 {
+  background-color: #e5f6ff; /* Light blue color */
+}
+
+.inner-box {
+  padding: 1rem; /* Ensure inner padding */
+  border-radius: 0.5rem; /* Ensure border radius */
+}  
