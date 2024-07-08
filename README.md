@@ -2,7 +2,7 @@
 
 **Early Detection Saves Lives**
 
-Our innovative application leverages advanced AI technology to analyze mammogram images with high precision, providing early detection and peace of mind from the comfort of your home. Stay proactive about your health with reliable and quick examinations.
+This innovative application leverages advanced AI technology to analyze mammogram images with high precision, providing early detection and peace of mind from the comfort of your home. Stay proactive about your health with reliable and quick examinations.
 
 ## Screenshots
 
