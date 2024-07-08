@@ -7,16 +7,16 @@ Our innovative application leverages advanced AI technology to analyze mammogram
 ## Screenshots
 
 ### Homepage
-![Homepage]![image](https://github.com/zapod838/EarlyScan/assets/45763055/4760d80a-82d2-4938-bece-da99d0ced7d6)
+![image](https://github.com/zapod838/EarlyScan/assets/45763055/4760d80a-82d2-4938-bece-da99d0ced7d6)
 
 ### Dashboard
-![Dashboard](![image](https://github.com/zapod838/EarlyScan/assets/45763055/1984c6af-0776-49d1-abce-515d3973331b))
+(![image](https://github.com/zapod838/EarlyScan/assets/45763055/1984c6af-0776-49d1-abce-515d3973331b))
 
 ### Upload Mammograms
-![Upload Mammograms](![image](https://github.com/zapod838/EarlyScan/assets/45763055/ab3f4893-ece7-434f-9f40-0910a44d5885))
+(![image](https://github.com/zapod838/EarlyScan/assets/45763055/ab3f4893-ece7-434f-9f40-0910a44d5885))
 
 ### Scan Results
-![Scan Results](![image](https://github.com/zapod838/EarlyScan/assets/45763055/cec66a51-5bdb-4b44-a503-00546b13aa18))
+(![image](https://github.com/zapod838/EarlyScan/assets/45763055/cec66a51-5bdb-4b44-a503-00546b13aa18))
 
 ## Features
 
