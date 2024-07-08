@@ -37,7 +37,7 @@ Our innovative application leverages advanced AI technology to analyze mammogram
 
 ## Architecture
 
-![Tech Architecture](![image](https://github.com/zapod838/EarlyScan/assets/45763055/a4269465-0213-4813-bb98-99b0facb831a))
+![image](https://github.com/zapod838/EarlyScan/assets/45763055/a4269465-0213-4813-bb98-99b0facb831a)
 
 ## Setup
 
