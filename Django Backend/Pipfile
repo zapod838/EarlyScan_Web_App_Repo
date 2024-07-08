@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+pandas = "*"
+psycopg2 = "*"             # PostgreSQL adapter, replace or add mysqlclient for MySQL if required
+django-environ = "*"       # For managing environment variables more effectively
+djangorestframework-simplejwt = "*" # For JWT authentication
+celery = "*"               # For asynchronous task queues
+django-redis = "*"         # For caching support using Redis
+whitenoise = "*"           # For serving static files in production
+drf-yasg = "*"             # For API documentation using Swagger
+matplotlib = "*"   # Added matplotlib here
+tensorflow = "*"   # Added TensorFlow here
+opencv-python = "*"  # Added OpenCV here
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
